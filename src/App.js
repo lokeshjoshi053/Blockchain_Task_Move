@@ -21,7 +21,7 @@ function App() {
   const handleIDO1Click = () => {
     axios
       .get(
-        "https://mumbai.polygonscan.com/address/0xDC821916B26d32F8fAf77BE7FCe79e88E38bceA2"
+        "https://solanabeach.io/"
       )
       .then((response) => {
         setIDO1Data(response.data);
@@ -34,7 +34,7 @@ function App() {
   const handleFundIDOClick = () => {
     axios
       .get(
-        "https://mumbai.polygonscan.com/address/0xDC821916B26d32F8fAf77BE7FCe79e88E38bceA2"
+        "https://solanabeach.io/"
       )
       .then((response) => {
         setFundIDOData(response.data);
@@ -47,7 +47,7 @@ function App() {
   const handleTransferIDOFundsClick = () => {
     axios
       .get(
-        "https://mumbai.polygonscan.com/address/0xDC821916B26d32F8fAf77BE7FCe79e88E38bceA2"
+        "https://solanabeach.io/"
       )
       .then((response) => {
         setTransferIDOFundsData(response.data);
